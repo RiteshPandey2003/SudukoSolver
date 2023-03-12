@@ -34,7 +34,7 @@ void solve(){
                     if(possible(i,j,k)){
                         grid[i][j]=k;
                         solve();
-                        grid[i][j]=-1;
+                        grid[i][j]=0;
                     } 
                 }
             }
